@@ -1,0 +1,42 @@
+/* 🌈 Background */
+body {
+  background: linear-gradient(135deg, #ffecd2, #fcb69f, #a1c4fd);
+  font-family: "Poppins", sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🎵 Main Title */
+h1 {
+  background: linear-gradient(90deg, #ff416c, #ff4b2b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 45px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  animation: glow 2s infinite alternate;
+  margin-top: 20px;
+}
+
+@keyframes glow {
+  from { text-shadow: 0 0 10px #ff4b2b; }
+  to { text-shadow: 0 0 25px #ff6a00; }
+}
+
+/* 📸 Image Style */
+img {
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(255, 102, 0, 0.5);
+}
+
+/* 🕒 Subheadings */
+h2 {
+  color: #ff4b2b;
+  text-shadow: 0 0 10px rgba(2

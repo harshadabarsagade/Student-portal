@@ -1,0 +1,117 @@
+/* 🌸 General Page Style */
+body {
+  background: linear-gradient(135deg, #fffaf0, #fff2e0, #ffe4b5);
+  font-family: 'Poppins', sans-serif;
+  color: #4a2c2a;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* 🌹 Main Blog Title */
+h1 {
+  color: #e67300;
+  font-size: 48px;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(255, 153, 51, 0.4);
+  margin-bottom: 5px;
+  letter-spacing: 1.5px;
+}
+
+/* 🌷 Sub Headings */
+h2 {
+  color: #d35400;
+  font-size: 28px;
+  text-shadow: 1px 1px 6px rgba(255, 160, 122, 0.5);
+  border-left: 6px solid #ff9900;
+  padding-left: 12px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+/* 🧡 Small Headings */
+h3 {
+  color: #e67300;
+  font-size: 24px;
+  text-shadow: 1px 1px 5px rgba(255, 153, 0, 0.3);
+  margin-top: 20px;
+}
+
+/* 🌼 Paragraphs */
+p {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 40px;
+  text-align: justify;
+}
+
+/* ✨ Italic Text */
+i {
+  color: #a0522d;
+  font-size: 20px;
+}
+
+/* 💛 Horizontal Lines */
+hr {
+  border: none;
+  height: 3px;
+  background: linear-gradient(to right, #ffb84d, #ff9900, #ffcc80);
+  border-radius: 5px;
+  margin: 25px auto;
+  width: 80%;
+  opacity: 0.9;
+}
+
+/* 🌅 Image Styling */
+img {
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(255, 153, 51, 0.5);
+  margin: 15px 0;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 35px rgba(255, 140, 0, 0.7);
+}
+
+/* 💌 Footer / Contact Section */
+center h3 {
+  font-size: 22px;
+  color: #cc6600;
+}
+
+center p {
+  font-size: 17px;
+  color: #5a3e36;
+}
+
+/* 🌺 Quote Style */
+b {
+  color: #c05000;
+}
+
+/* 🧁 Decorative Touch: Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 🌸 Add Subtle Glow Around Text When Hovered */
+h1:hover, h2:hover, h3:hover {
+  text-shadow: 2px 2px 15px rgba(255, 165, 0, 0.6);
+}
+
+/* 🌼 Page Center Text */
+center i {
+  font-size: 18px;
+  color: #a0522d;
+}
+
+/* 🩵 Optional scrollbar glow */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ffcc80, #ff9966);
+  border-radius: 8px;
+}

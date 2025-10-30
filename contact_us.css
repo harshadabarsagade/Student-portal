@@ -1,0 +1,119 @@
+
+/* 🌈 Background Gradient */
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+      color: #333;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* 🌟 Heading Style */
+    h1 {
+      background: linear-gradient(90deg, #007bff, #00c6ff);
+      color: white;
+      padding: 15px 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0, 123, 255, 0.4);
+      letter-spacing: 1px;
+      animation: fadeInDown 1s ease-in-out;
+    }
+
+    /* 🌷 Content Box */
+    .contact-box {
+      background: white;
+      border-radius: 20px;
+      padding: 30px 50px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+      width: 60%;
+      max-width: 600px;
+      margin-top: 20px;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    /* 📧 Text Styling */
+    p {
+      font-size: 18px;
+      margin: 12px 0;
+      line-height: 1.6;
+    }
+
+    b {
+      color: #007bff;
+    }
+
+    /* 💖 Go Back Button */
+    a {
+      display: inline-block;
+      margin-top: 30px;
+      text-decoration: none;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4, #a1c4fd);
+      color: white;
+      padding: 14px 35px;
+      border-radius: 30px;
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      box-shadow: 0 5px 20px rgba(255, 182, 193, 0.5);
+      transition: all 0.4s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    a::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.4);
+      transform: skewX(-30deg);
+      transition: 0.5s;
+    }
+
+    a:hover::before {
+      left: 100%;
+    }
+
+    a:hover {
+      transform: scale(1.08);
+      box-shadow: 0 8px 25px rgba(255, 182, 193, 0.8);
+      background: linear-gradient(135deg, #a1c4fd, #c2e9fb, #ff9a9e);
+    }
+
+    /* ✨ Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>📞 Contact Us!</h1>
+  <hr size="3" color="cyan" width="60%">
+  
+  <div class="contact-box">
+    <p><b>✉️ Email:</b> harshubarsagade33@gmail.com</p>
+    <p><b>📞 Contact Number:</b> 89764532</p>
+    <p><b>🏠 Home:</b> 7908654580</p>
+    <p><b>🔗 LinkedIn:</b> <a href="https://fr.linkedin.com/in/chamorshi" target="_blank" style="color:#007bff; text-decoration:underline;">Click Here</a></p>
+    <p><b>📍 Address:</b> Shivaji Junior College Chamorshi, Nagpur Road, 443092, India</p>
+    <p>🙋 I am here to help you with any queries!</p>
+  </div>
+
+  <a href="home.html">⬅ Go Back To Home</a>
+</body>
+</html>

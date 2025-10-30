@@ -1,0 +1,97 @@
+/* 🌈 Page Background & Font */
+body {
+  background: linear-gradient(135deg, #fef6e4, #fde2b1, #ffecd2);
+  font-family: 'Poppins', sans-serif;
+  color: #3e2723;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🍯 Main Title */
+h1 {
+  color: #d35400;
+  font-size: 45px;
+  margin-top: 20px;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 2px 10px rgba(255, 153, 51, 0.4);
+}
+
+/* 🥯 Second Heading */
+h1:nth-of-type(2) {
+  color: #b71c1c;
+  font-size: 40px;
+  margin-top: 10px;
+  text-shadow: 2px 2px 10px rgba(255, 82, 82, 0.4);
+}
+
+/* 🌾 Subheadings */
+h2 {
+  color: #6d4c41;
+  font-size: 26px;
+  margin-top: 25px;
+  border-bottom: 3px solid #ffb74d;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+/* 🧈 Steps / Small Headings */
+h3 {
+  color: #a0522d;
+  font-size: 22px;
+  margin-top: 20px;
+  text-decoration: underline wavy #f57c00;
+}
+
+/* 🥮 Image Style */
+img {
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(255, 171, 64, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 15px 0;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 35px rgba(255, 112, 67, 0.8);
+}
+
+/* 📋 List Styles */
+ol {
+  background: rgba(255, 248, 220, 0.8);
+  display: inline-block;
+  text-align: left;
+  padding: 20px 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(255, 179, 0, 0.2);
+  font-size: 18px;
+  line-height: 1.7;
+  color: #4e342e;
+  transition: transform 0.3s;
+}
+
+ol:hover {
+  transform: scale(1.02);
+}
+
+/* 🍯 Iframe (Video) */
+iframe {
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(255, 111, 0, 0.4);
+  margin: 30px 0;
+  transition: transform 0.4s;
+}
+
+iframe:hover {
+  transform: scale(1.03);
+}
+
+/* 🌸 Scrollbar (Optional - adds smoothness) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ffb74d, #ff7043);
+  border-radius: 10px;
+}

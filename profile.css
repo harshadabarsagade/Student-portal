@@ -1,0 +1,116 @@
+
+/* 🌸 Student Profile Page CSS */
+body {
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center all content neatly */
+center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Page Heading */
+h1 {
+  background: linear-gradient(90deg, #ff758c, #ff7eb3);
+  color: white;
+  padding: 20px 50px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(255, 121, 182, 0.5);
+  letter-spacing: 2px;
+  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-top: 30px;
+}
+
+/* Student Image */
+img {
+  border-radius: 50%;
+  border: 5px solid #ff7eb3;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  box-shadow: 0 5px 15px rgba(255, 105, 180, 0.4);
+  margin-top: 20px;
+  margin-bottom: 25px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(255, 105, 180, 0.6);
+}
+
+/* Info Table */
+table {
+  border-collapse: collapse;
+  width: 60%;
+  background-color: #fff8f0;
+  border-radius: 20px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+/* Label Cells */
+table td:first-child {
+  background: linear-gradient(90deg, #dd9014, #fdd835);
+  color: white;
+  font-weight: bold;
+  width: 40%;
+  text-align: left;
+  padding-left: 15px;
+  border-right: 2px solid #fff;
+}
+
+/* Value Cells */
+table td {
+  border: 1px solid #f9f9f9;
+  padding: 12px;
+  text-align: left;
+  font-size: 16px;
+}
+
+/* Hover effect for each row */
+table tr:hover {
+  background-color: #fff2e1;
+  transition: 0.3s;
+}
+
+/* About Me Section */
+p {
+  background: linear-gradient(90deg, #fceabb, #f8b500);
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 60%;
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Back to Home Link */
+a {
+  display: inline-block;
+  margin-top: 25px;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(90deg, #a18cd1, #fbc2eb);
+  padding: 12px 25px;
+  border-radius: 12px;
+  font-weight: bold;
+  box-shadow: 0px 4px 10px rgba(161, 140, 209, 0.5);
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background: linear-gradient(90deg, #fbc2eb, #a18cd1);
+  transform: scale(1.05);
+  box-shadow: 0px 5px 15px rgba(161, 140, 209, 0.6);
+}

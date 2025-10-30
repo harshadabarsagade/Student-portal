@@ -1,0 +1,102 @@
+/* 🌼 Courses Page CSS */
+body {
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center Content */
+center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Page Heading */
+h1 {
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  color: white;
+  padding: 20px 50px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(255, 105, 97, 0.5);
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+}
+
+/* Semester Heading */
+h2 {
+  color: #4a148c;
+  margin-top: 10px;
+  background: #fbe9e7;
+  padding: 8px 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styling */
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Table Header Row */
+table tr:first-child {
+  background: linear-gradient(90deg, #ee0979, #ff6a00);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Table Data Cells */
+td {
+  border: 1px solid #f1f1f1;
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Alternate Row Colors */
+table tr:nth-child(even) {
+  background-color: #fff4e6;
+}
+
+table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+/* Row Hover Effect */
+table tr:hover {
+  background-color: #ffe0b2;
+  transform: scale(1.01);
+  transition: all 0.3s ease;
+}
+
+/* Back Button Styling */
+a {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  background: linear-gradient(90deg, #a18cd1, #fbc2eb);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: 0px 4px 10px rgba(161, 140, 209, 0.5);
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background: linear-gradient(90deg, #fbc2eb, #a18cd1);
+  transform: scale(1.05);
+  box-shadow: 0px 5px 15px rgba(161, 140, 209, 0.6);
+}
